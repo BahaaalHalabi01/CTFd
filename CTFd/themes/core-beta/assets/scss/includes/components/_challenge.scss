@@ -11,7 +11,7 @@
 
 [data-bs-theme="light"] .challenge-button {
   border: none;
-  box-shadow: 0 0 15px var(--bs-secondary);
+  box-shadow: 0 0 15px var(--bs-danger);
 
   &.challenge-solved {
     background-color: #29c830;
@@ -24,7 +24,7 @@
 
 [data-bs-theme="dark"] .challenge-button {
   border: none;
-  background-color: var(--bs-gray-dark);
+  background-color: var(--bs-gray-danger);
 
   &:hover {
     background-color: var(--bs-gray);
